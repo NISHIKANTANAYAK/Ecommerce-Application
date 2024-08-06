@@ -1,0 +1,421 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eeeeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(175, 216, 216);
+    box-shadow: 0px 2px 2px 2px rgb(204, 203, 203);
+    padding: 15px;
+
+
+
+}
+ 
+nav .logo{
+    margin-left: 45px;
+    font-size:22px;
+    color: rgb(106, 184, 184);
+    
+}
+nav h1{
+    font-family: 'Lato', sans-serif;
+}
+ul li a{
+    text-decoration: none;
+    margin-inline: 25px;
+     font-size: 20px;
+     
+}
+ul #home{
+    color: rgb(1, 190, 190);
+}
+ul li i{
+    
+    font-size: 22px;
+}
+
+
+ul{
+    margin-right: 50px;
+    margin-top: 6px;
+}
+ 
+nav ul{
+    list-style: none;
+}
+.mainPage{
+    display: flex;
+    justify-content: space-around;
+}
+.mainPage .text{
+    margin-top: 123px;
+}
+
+.text h1{
+    font-size: 54px;
+}
+.mainPage img{
+   margin-top: 44px;
+   
+}
+.heads{
+    color: rgb(2, 131, 131);
+}
+.text p{
+    margin-top: 22px;
+}
+.text h2{
+    color: rgb(63, 63, 63);
+}
+.text button{
+    width: 140px;
+    height: 40px;
+    margin-top: 23px;
+    background-color: rgb(2, 131, 131);
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    padding: 44px;
+    margin-top: 11px;
+}
+.head span{
+    color: rgb(4, 155, 155);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+.card .crd {
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 22px;
+    
+}
+
+.crd .txt {
+    margin-left: 28px;
+ 
+}
+.txt i{
+    color: goldenrod;
+    margin-top: 4px;
+    font-size:19px;
+}
+.txt button{
+    width: 110px;
+    height: 33px;
+    border: none;
+    background-color: rgb(1, 148, 148);
+    color: white;
+    font-size: 16px;
+    margin-top: 8px;
+}
+ 
+.crd img{
+    width: 85%;
+    padding: 22px;
+    border-radius: 30px;
+}
+  
+.trd{
+    display: flex;
+    justify-content: center;
+    
+     
+}
+.trending{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    margin-inline: 22px;
+    border-radius: 22px;
+
+}
+.trending .txt{
+    padding: 22px;
+    margin-top: 13%;
+}
+.txt a{
+    width: 140px;
+    height: 36px;
+    background-color: rgb(3, 94, 94);
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 7px;
+}
+
+.trending img{
+    width: 55%;
+    border-radius: 22px;
+    padding: 12px;
+}
+
+
+.letter{
+    background-color: rgba(11, 6, 37, 0.993);
+    padding: 44px;
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.letter .inp input{
+    width: 270px;
+    height: 29px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    
+}
+.inp{
+    display: flex;
+}
+.inp button{
+    width: 100px;
+    height: 39px;
+    border: none;
+    background-color: rgb(3, 134, 134);
+    font-size: 18px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(219, 218, 218);
+    padding: 42px;
+   
+}
+.footer .Ftext{
+    margin-inline: 72px;
+}
+.Ftext p{
+    margin-top: 22px;
+}
+
+
+/* about */
+
+
+.aboutText{
+    background-color: rgb(1, 1, 43);
+    color: white;
+    padding: 44px;
+    font-size: 22pxSSSpx;
+
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 17%;
+    margin-top: 5%;
+    border-radius: 6px;
+}
+
+.dumiText p {
+    
+    
+    margin-bottom: 5px;
+    
+}
+.aboutus img{
+    width: 44%;
+}
+
+/* contact */
+
+
+.contactBanner{
+    background-color: rgb(4, 4, 44);
+    color: white;
+    padding: 44px;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    border-radius: 0px 2px 2px black;
+    
+    
+}
+.connectText{
+    background-color: #fff;
+    padding: 53px;
+}
+.connectText p{
+    margin-top: 21px;
+}
+.contact img{
+    width: 30%;
+    
+}
+
+.form{
+    text-align: center;
+    margin-top: 73px;
+}
+.form button{
+    width: 340px;
+    height: 40px;
+    border: none;
+    background-color: rgb(1, 87, 87);
+    color: white;
+    font-size: 22px;
+    margin-top: 22px;
+}
+.form input{
+    width: 320px;
+    padding: 8px;
+    outline: none;
+    margin: 3px;
+    margin-top: 11px;
+}
+
+
+
+/*loginpage*/
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30 rgba(0 , 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 400px;
+}
+
+.icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: black;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+.wrapper .form-box{
+    width:100% ;
+    padding: 40px;
+}
+.form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+    
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid #162938 ;
+    margin: 30px 0;
+    
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input{
+     width: 100%;
+     height: 100%;
+     background:transparent;
+     border: none;
+     outline: none;
+     font-weight: 600;
+     padding: 0 35px o 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+}
+.remember-forgot{
+    font-size: .9em;
+    color: black;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.remember-forgot label input{
+    accent-color:black;
+    margin-right: 3px;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+   
+}
+.remember-forgot a{
+    color:black;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.login-register{
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.login-register a{
+    color:black;
+    text-decoration: none;
+}
+.login-register a:hover{
+    text-decoration: underline;
+}
